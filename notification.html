@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 300px;
+        height: 200px;
+        background-color: #f44336;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Arial, sans-serif;
+        border-radius: 12px;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 1000;
+      }
+
+      #close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>You've reached your limit!</h1>
+    <span id="close">X</span>
+  </body>
+  <script src="notification.js"></script>
+</html>
